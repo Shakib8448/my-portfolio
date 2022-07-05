@@ -7,7 +7,7 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.half-wid h1{
+h1{
     font-size: 50px;
 }
 
@@ -16,10 +16,12 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-wid{
     width: 50%;
-  padding: 2%;
+    padding: 3%;
+    margin-left: 40px;
 
 }
 .link-button{
@@ -31,5 +33,12 @@ section{
     font-weight: 700;
 }
 .half-wid img{
-    width: 70%;
+    width: 90%;
+}
+
+.dream-banner{
+    padding: 2%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
